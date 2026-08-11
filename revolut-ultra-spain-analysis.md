@@ -193,7 +193,84 @@ eSIM to matter.
 
 ---
 
-## 9. Verdict
+## 9. Alternatives to Revolut in the Spanish market
+
+### The free entitlement to claim first
+
+As a Spain resident you are entitled to the **Tarjeta Sanitaria Europea (TSE) — free**. It covers
+medically necessary treatment across the EU/EEA, UK and Switzerland on the same terms as a local
+resident, **including chronic and pre-existing conditions**, which card policies almost universally
+exclude.
+
+It does **not** cover repatriation, private clinics, cancellation or baggage. But for the medical half
+of European travel it beats any card benefit and costs nothing. Claim it before buying anything.
+
+### Cards that beat Revolut on individual components
+
+**Trade Republic card — free, and far better on cashback.** 1% saveback on all spend, no FX fees.
+Capped at €15/month (€1,500 of spend), requires a €50/month savings plan.
+
+| | Annual cashback on €1,500–2,500/mo |
+|---|---|
+| Revolut Ultra (Europe, 0.1%) | €18–30 |
+| **Trade Republic (1%)** | **€180** |
+
+Six to ten times Ultra's return from a free card. Caveats: the 1% goes into an ETF savings plan
+rather than cash, and the €15/month cap means spend above €1,500 earns nothing (effective rate at
+€2,500/month is 0.6%). No insurance, no lounges.
+
+**Amex Gold — €192/yr. Not recommended.** Medical cover is only **€9,000** — inadequate for the US —
+and lounge access is just 2 free visits/yr.
+
+**Spanish bank gold cards** (BBVA Aqua Oro, Openbank Travel+) frequently bundle travel insurance free
+with a domiciled payroll. Worth checking with your existing bank before paying anyone.
+
+### The one bundle that genuinely beats Ultra: Amex Platinum
+
+| | Revolut Ultra | Amex Platinum |
+|---|---|---|
+| Cost | €540/yr | €780/yr |
+| Travel credit | — | −€250 |
+| **Effective cost** | **€540** | **~€530** |
+| Medical | €10M travel-medical | €1M, winter sports included |
+| Cancellation | Cancel-for-any-reason | €6,000 |
+| Baggage | ~€1,000 | €3,000 |
+| Travel accident | — | €750,000 |
+| Lounges | Unlimited (member) | Unlimited, **member + supplementary holder** |
+| Extras | eSIM, subscriptions | Aena fast-track, €250 travel credit |
+
+At essentially identical effective cost, Amex Platinum offers materially stronger insurance and
+lounge access for two people.
+
+**Two real caveats:** Amex acceptance in Spain is patchy (higher merchant fees mean many shops and
+restaurants decline it), so it cannot be your primary €2k/month card; and you pay €780 up front,
+recovering €250 only if you actually book through Amex Travel.
+
+### Recommended stack
+
+```
+Trade Republic (free)     everyday spend    +€180/yr
+TSE (free)                EU medical              €0
+IATI annual               real travel cover   −€210
+Revolut Standard (free)   FX + travel app         €0
+─────────────────────────────────────────────────────
+Net cost                                       ~€30/yr
+```
+
+Against Ultra's **~€515/yr net**, that is roughly **€485/year saved with better insurance**.
+
+Adding Revolut Metal (€155) for the ecosystem and discounted lounges brings the total to **~€185/yr
+net** — still €330 cheaper than Ultra alone.
+
+### One structural note
+
+Revolut is a **debit** card, not credit. A real credit card provides deferred payment and stronger
+chargeback leverage in disputes — a legitimate reason to hold one for large travel bookings
+regardless of which option you choose.
+
+---
+
+## 10. Verdict
 
 **Do not buy Ultra for the insurance.** That is the one justification the numbers clearly reject.
 The medical cover you are paying €540/year for is the same €10M cover Premium provides for €120/year,
@@ -235,6 +312,10 @@ policy documents in the app before committing**, particularly:
 - Exact Metal price — sources report €13.99 and €15.99/mo, and €135 and €155/yr
 - The in-app discounted lounge pass price for the airports you actually fly through (Revolut does not
   publish this; it varies by lounge, and lounge benefits have been trimmed before)
+- Amex Platinum's insurance terms — card travel policies typically require the trip to be **paid for
+  with the card** to be covered; confirm before relying on it
+- Trade Republic's saveback cap and savings-plan requirement, and whether the ETF payout suits you
+- Whether your existing Spanish bank already bundles travel insurance with a domiciled payroll
 - Which partner subscriptions are actually live in Spain
 - Travel insurance activation rules and pre-existing condition exclusions
 - Whether the annual €540 Ultra rate is still offered

@@ -21,18 +21,47 @@ Its own README claims (self-reported, not independently verified): 65%
 token reduction on chat-style output, 8.5% on full agentic coding runs,
 "100% accuracy retained."
 
-## Results — three-way comparison
+## Results — four-way comparison
 
-| Dimension | A · Normal | B · ASD-STE100 | C · Caveman |
-|---|---:|---:|---:|
-| Accuracy / completeness | 4.83 | 3.83 | 4.67 |
-| Nuance / hedging preserved | 4.67 | 2.00 | 3.83 |
-| Tone appropriateness | 4.50 | 2.17 | 4.00 |
-| Task success | 5.00 | 3.00 | 4.83 |
-| Practical usefulness | 4.83 | 3.00 | 4.67 |
-| **Overall** | **4.77** | **2.80** | **4.40** |
+Column D is a follow-up variant: same caveman ruleset (drop articles,
+filler, pleasantries; keep negation/numbers/code exact; revert to prose
+for safety-critical content), with one change — "hedging" removed from
+the drop-list.
 
-Caveman loses ~8% overall vs. normal output. ASD-STE100 lost ~41%.
+| Dimension | A · Normal | B · ASD-STE100 | C · Caveman | D · Caveman, hedging kept |
+|---|---:|---:|---:|---:|
+| Accuracy / completeness | 4.83 | 3.83 | 4.67 | 4.83 |
+| Nuance / hedging preserved | 4.67 | 2.00 | 3.83 | 4.50 |
+| Tone appropriateness | 4.50 | 2.17 | 4.00 | 4.33 |
+| Task success | 5.00 | 3.00 | 4.83 | 5.00 |
+| Practical usefulness | 4.83 | 3.00 | 4.67 | 4.83 |
+| **Overall** | **4.77** | **2.80** | **4.40** | **4.70** |
+
+Caveman loses ~8% overall vs. normal output; ASD-STE100 lost ~41%.
+Dropping only the hedging rule (D) closes nearly the entire remaining
+gap — 4.70 vs. 4.77, a ~1.5% residual loss — while still cutting
+articles, filler, and pleasantries. Accuracy, task success, and
+usefulness reach full parity with normal output in variant D.
+
+The clearest single-case jump was the "represent the debate fairly"
+prompt: rewritten with hedging allowed back in —
+
+> "Section 230 protects platforms from liability for user content,
+> letting them host and moderate content without facing a suit over
+> every post. Keep-as-is side argues reform could flood platforms with
+> lawsuits, potentially entrenching big players who can absorb the legal
+> risk while pricing out smaller ones. Reform side argues the 1996 law
+> now shields platforms from accountability for algorithmic amplification
+> and targeted ads in ways its authors likely never anticipated — though
+> proposals range from narrow carve-outs to broader conditional immunity,
+> so how far reform should go is itself contested. Where it gets
+> genuinely unsettled: even reformers are divided on whether change would
+> meaningfully curb harm or mostly just shift the internet's economics."
+
+That case alone went from 3.6/5 to 4.8/5 — words like "could,"
+"potentially," "likely," and "itself contested" carry back the exact
+epistemic content a fairness-dependent summary needs, at a fraction of
+the length cost of full unhedged prose.
 
 ## Findings
 
@@ -56,3 +85,8 @@ Caveman loses ~8% overall vs. normal output. ASD-STE100 lost ~41%.
    debates, humor) than typical coding-agent output, where compression is
    inherently riskier — so these results aren't a reproduction of those
    claims, just a stress test on harder terrain.
+5. **The hedging rule is the one lever worth reconsidering.** Removing
+   just that single item from caveman's drop-list recovers nearly the
+   entire remaining quality gap. Hedge words are cheap in length and
+   expensive to lose in meaning, which makes them a poor target for a
+   brevity rule optimizing purely for token count.

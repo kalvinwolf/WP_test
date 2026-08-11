@@ -26,7 +26,7 @@ would still need a separate policy (roughly €50–90/month depending on age an
 | Standard | €0 | Baseline |
 | Plus | €3.99/mo | Minor perks |
 | Premium | €9.99/mo (~€120/yr) | **First tier with real travel insurance** |
-| Metal | ~€13.99–15.99/mo (~€168–192/yr) | Insurance + cashback + metal card |
+| Metal | ~€13.99–15.99/mo, or **€155/yr** annually | Insurance + cashback + discounted lounges |
 | Ultra | **€55/mo, or €540/yr paid annually** | Top tier |
 
 Notes:
@@ -65,7 +65,7 @@ Living in Spain, you are realistically in the **€20–80/year** band.
 
 ## 4. Insurance — what each tier actually gives you
 
-| Feature | Premium (€9.99) | Metal (~€14–16) | Ultra (€55/€45) |
+| Feature | Premium (€9.99) | Metal (€155/yr) | Ultra (€540/yr) |
 |---|---|---|---|
 | Emergency medical abroad | up to €10M | up to €10M | up to €10M |
 | Emergency dental | €300 | €300 | €300 |
@@ -99,13 +99,13 @@ A proper Spanish annual multi-trip policy:
 | IATI Anual Multiviaje | from **€209.99** | €300,000 worldwide | 90 days |
 | Market range (IATI, Chapka, Intermundial, Mondo) | €150–400 | varies | 60–90 days |
 | Revolut Premium | €120 | €10M | 30 days |
-| Revolut Metal | €168–192 | €10M | 30 days |
+| Revolut Metal | €155 (annual billing) | €10M | 30 days |
 | Revolut Ultra | €540 | €10M | 90 days |
 
 The decisive comparison:
 
-> **Metal (~€180) + a full IATI annual policy (€210) = ~€390/year.**
-> That is **€150 cheaper than Ultra**, and gives you *better* insurance — a real standalone policy
+> **Metal (€155 annual) + a full IATI annual policy (€210) = ~€365/year.**
+> That is **€175 cheaper than Ultra**, and gives you *better* insurance — a real standalone policy
 > with a dedicated claims process, 90-day trips, and no dependence on card-linked activation rules.
 
 A card-embedded policy is convenient but weaker in practice: geolocation/activation quirks,
@@ -115,7 +115,7 @@ the better product *and* the cheaper one.
 
 ---
 
-## 6. The non-insurance perks
+## 6. The non-insurance perks (other than lounges — see §7)
 
 This is where Ultra's remaining case lives.
 
@@ -136,22 +136,51 @@ not seven — and availability varies by country, so confirm which are live in S
 
 ---
 
-## 7. Break-even
+## 7. The Metal lounge discount — and why it hurts the Ultra case
+
+Premium and Metal do not get free lounge access, but they do get a **"Revolut-funded discounted
+rate"** on passes. Revolut does not publish the exact figure — it is shown in-app and varies by
+lounge — but the reference points are:
+
+- **LoungeKey standard rate: £22 (~€25)** — the benchmark Revolut discounts from
+- **Walk-up rates: €30–50** at most lounges
+- Third-party reports: ~$30–35/pass, described as 30–50% cheaper than walk-up
+
+**Best estimate: 30–50% off, landing around €10–20 per visit.**
+
+Terms to note: passes are **per person, per visit** (a travelling partner needs a second pass), valid
+12 months from purchase, and require ID plus a same-day boarding pass. The discount is identical on
+Premium and Metal — it is not a Metal-specific perk. Standard and Plus pay full price.
+
+**This materially weakens the argument for Ultra.** If a Metal pass costs €10–20 rather than €30,
+Ultra's unlimited access saves *less* per visit, so you need *more* flights to break even.
+
+## 8. Break-even (revised)
 
 The correct comparison is **Ultra vs Metal**, not Ultra vs nothing — because Metal already gives you
 the medical cover, the cancellation cover, and the identical cashback.
 
 ```
 Ultra (annual)   €540/yr
-Metal            €180/yr
+Metal (annual)   €155/yr
 ─────────────────────────
-Delta to justify €360/yr
+Delta to justify €385/yr
 ```
 
-What has to fill that €360:
+Lounge visits required to justify Ultra on lounges alone:
 
-- **Lounges.** At ~€30/visit, you need **~12 lounge visits per year** — roughly 6 return trips with
-  lounge-eligible airports — to cover the gap on lounges alone.
+| If a Metal pass costs | Visits/yr needed |
+|---|---|
+| €10 | **~38** |
+| €15 | **~26** |
+| €20 | **~19** |
+| €25 (best case) | **~15** |
+
+Even on the most generous assumption you need **~15 visits/year** — 7–8 return trips using a lounge
+at both ends. At a realistic €15/pass it is **~26 visits**, i.e. near-weekly flying.
+
+The rest of the gap would have to come from:
+
 - **Subscriptions.** Count only what you'd genuinely buy. NordVPN (~€100/yr) plus one more
   regularly-used sub gets you meaningfully toward it.
 - **Insurance upgrades.** Worth maybe €50–100/yr unless you take 30+ day trips or ski.
@@ -164,7 +193,7 @@ eSIM to matter.
 
 ---
 
-## 8. Verdict
+## 9. Verdict
 
 **Do not buy Ultra for the insurance.** That is the one justification the numbers clearly reject.
 The medical cover you are paying €540/year for is the same €10M cover Premium provides for €120/year,
@@ -176,12 +205,12 @@ on Metal, it is noise.
 
 ### Recommended path
 
-**Start with Metal (~€14–16/mo).** It gives you the full €10M travel medical cover, €5,000
+**Start with Metal (€155/yr paid annually).** It gives you the full €10M travel medical cover, €5,000
 cancellation, spouse/partner inclusion, and the exact same cashback as Ultra — for about a third of
 the price.
 
 **Add a standalone annual travel policy (IATI or similar, ~€210/yr) only if** you take long trips,
-travel to the US/Canada/Japan, or want a real claims process behind you. Total ~€390/yr, still under
+travel to the US/Canada/Japan, or want a real claims process behind you. Total ~€365/yr, still under
 Ultra, with better insurance.
 
 **Upgrade to Ultra later, annually (€540), only if** you look back after 6–12 months on Metal and
@@ -203,7 +232,9 @@ figures come from search results and third-party Spanish sources (Aug 2026). Rev
 pricing recently and Metal's price is reported inconsistently. **Confirm current prices and the full
 policy documents in the app before committing**, particularly:
 
-- Exact Metal monthly price
+- Exact Metal price — sources report €13.99 and €15.99/mo, and €135 and €155/yr
+- The in-app discounted lounge pass price for the airports you actually fly through (Revolut does not
+  publish this; it varies by lounge, and lounge benefits have been trimmed before)
 - Which partner subscriptions are actually live in Spain
 - Travel insurance activation rules and pre-existing condition exclusions
 - Whether the annual €540 Ultra rate is still offered
